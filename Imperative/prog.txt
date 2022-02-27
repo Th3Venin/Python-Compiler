@@ -1,0 +1,66 @@
+[
+  assign [
+    variable [
+      x
+    ]
+    integer [
+      3
+    ]
+  ]
+  while [
+    greaterthan [
+      variable [
+        x
+      ]
+      integer [
+        5
+      ]
+    ]
+    do [
+      assign [
+        variable [
+          x
+        ]
+        plus [
+          variable [
+            x
+          ]
+          integer [
+            2
+          ]
+        ]
+      ]
+    ]
+  ]
+  if [
+    equals [
+      variable [
+        x
+      ]
+      variable [
+        y
+      ]
+    ]
+    then assign [
+        variable [
+          x
+        ]
+        plus [
+          variable [
+            x
+          ]
+          variable [
+            y
+          ]
+        ]
+      ]
+    else assign [
+        variable [
+          x
+        ]
+        variable [
+          y
+        ]
+      ]
+  ]
+]
